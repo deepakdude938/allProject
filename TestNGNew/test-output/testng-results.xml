@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42440" started-at="2020-09-02T06:40:25Z" finished-at="2020-09-02T06:41:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42440" started-at="2020-09-02T06:40:25Z" finished-at="2020-09-02T06:41:08Z">
+      <class name="airtel_TestCases.Airtel">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:airtel_TestCases.Airtel@6328d34a]" name="openBrowser" is-config="true" duration-ms="35833" started-at="2020-09-02T06:40:26Z" finished-at="2020-09-02T06:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:airtel_TestCases.Airtel@6328d34a]" name="homePage" duration-ms="71" started-at="2020-09-02T06:41:01Z" finished-at="2020-09-02T06:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:airtel_TestCases.Airtel@6328d34a]" name="closeBrowser" is-config="true" duration-ms="6492" started-at="2020-09-02T06:41:01Z" finished-at="2020-09-02T06:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- airtel_TestCases.Airtel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

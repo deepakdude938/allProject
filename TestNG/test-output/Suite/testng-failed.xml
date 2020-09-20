@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="TestCase.ListnerExample">
+        <methods>
+          <include name="m3"/>
+          <include name="m2"/>
+        </methods>
+      </class> <!-- TestCase.ListnerExample -->
+      <class name="TestFramework.Tester">
+        <methods>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- TestFramework.Tester -->
+      <class name="TestCase.TestPractise">
+        <methods>
+          <include name="m2"/>
+          <include name="m123"/>
+          <include name="m4"/>
+          <include name="m11"/>
+          <include name="m7"/>
+          <include name="m6"/>
+          <include name="m3"/>
+          <include name="m5"/>
+        </methods>
+      </class> <!-- TestCase.TestPractise -->
+      <class name="Airtel_TestCases.Airtel">
+        <methods>
+          <include name="airtelPaymentBankLinkVerification"/>
+          <include name="leftArrowVisibilityTest"/>
+          <include name="prepaidImageLink_VisibilityTest"/>
+          <include name="wynkLinkVerification"/>
+          <include name="rechargeTab_PAYBILL_Button_VisibilityTest"/>
+          <include name="buyXstream_QuickActionContainer_VisibilityTest"/>
+          <include name="popUpBoxLogoVisibilityTest"/>
+          <include name="personalTextVerification"/>
+          <include name="prepaidToPostpaidLink_QuickActionContainer_VisibilityTest"/>
+          <include name="popUpBoxDontAllowButtonVisibilityTest"/>
+          <include name="getAppImageLinkVisibilityTest"/>
+          <include name="businessPostpaidLink_QuickActionContainer_VisibilityTest"/>
+          <include name="openBrowser"/>
+          <include name="rechargeTabText2_VisibilityTest"/>
+          <include name="portToAirtelLink_QuickActionContainer_VisibilityTest"/>
+          <include name="oneAirtelPlan_QuickActionContainer_VisibilityTest"/>
+          <include name="rechargeTab_RegisterMobIDTextBox_VisibilityTest"/>
+          <include name="airtelPaymentsBank_QuickActionContainer_VisibilityTest"/>
+          <include name="popUpBoxText1VisibilityTest"/>
+          <include name="businessLinkVerification"/>
+          <include name="homePage"/>
+          <include name="rechargeTabText1_VisibilityTest"/>
+          <include name="buyPostpaid_QuickActionContainer_VisibilityTest"/>
+          <include name="dthImageLink_VisibilityTest"/>
+          <include name="airtelStoreImageLinkVisibilityTest"/>
+          <include name="investorLinkVerification"/>
+          <include name="loginImageLinkVisibilityTest"/>
+          <include name="broadbandImageLink_VisibilityTest"/>
+          <include name="xstremLinkVerification"/>
+          <include name="buyBroadband_QuickActionContainer_VisibilityTest"/>
+          <include name="popUpBoxText2VisibilityTest"/>
+          <include name="rechargeTab_EnterMobNoTextBox_VisibilityTest"/>
+          <include name="titleChecking"/>
+          <include name="popUpBoxVisibilityTest"/>
+          <include name="careerLinkVerification"/>
+          <include name="postpaidImageLink_VisibilityTest"/>
+          <include name="internationalRoamingLink_QuickActionContainer_VisibilityTest"/>
+          <include name="rightArrowVisibilityTest"/>
+          <include name="buyPrepaid_QuickActionContainer_VisibilityTest"/>
+          <include name="popUpBoxAllowButtonVisibilityTest"/>
+          <include name="wificallingLink_QuickActionContainer_VisibilityTest"/>
+          <include name="logoVisibility"/>
+          <include name="rechargeTab_RECHARGE_Button_VisibilityTest"/>
+          <include name="buyDTH_QuickActionContainer_VisibilityTest"/>
+        </methods>
+      </class> <!-- Airtel_TestCases.Airtel -->
+      <class name="TestCase.TestPractise1">
+        <methods>
+          <include name="m3"/>
+          <include name="m2"/>
+          <include name="m7"/>
+          <include name="m6"/>
+        </methods>
+      </class> <!-- TestCase.TestPractise1 -->
+      <class name="TestCase.SanityTesting">
+        <methods>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- TestCase.SanityTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
